@@ -6,4 +6,33 @@
     margin: 0;
     padding: 0;
     font-family: "Annie";
+    color: #1C21DB;
+}
+colores{
+    color: #8126EB;
+    color: #4313F2;
+    color: #1C21DB;
+    color: #1351F2;
+    color: #2F90EB;
+}
+.fieldset{
+    border: 2px solid #1C21DB;
+    border-radius: 25px;
+}
+label{
+    font-size: 1.3rem;
+}
+
+.footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/cabecerainstalaciones.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    font-size: 1.3rem;
 }
