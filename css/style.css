@@ -13,30 +13,38 @@
     background-size: cover;
     background-position: center center;
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .header__lista{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+}
+.header__h{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(247, 241, 241);
+    margin-top: 80px;
+}
+.header__h1{
+    color: rgb(247, 241, 241);
+}
+.header__h2{
+    color: rgb(247, 241, 241);
 }
 .header__li{
     list-style: none;
 }
 .header__a{
     text-decoration: none;
-    background-color: blue;
+    background-color: #2F90EB;
     border-radius: 25px 25px;
     width: 120px;
     padding: 0.5rem;
     text-transform: uppercase;
-    color: rgb(247, 241, 241);
-}
-.header__h1{
-    color: rgb(247, 241, 241);
-}
-.header__h2{
     color: rgb(247, 241, 241);
 }
 
