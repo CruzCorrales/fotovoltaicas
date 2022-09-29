@@ -21,30 +21,30 @@
     </header>
     <div class="form__contacto">
         <p class="form__p">Para cualquier consulta puedes hacerlo atravez del siguiente formulario. Estaremos encantados de poder resolver tus consultas.</p>
-        <form method="post" action="#">
+        <form class="formulario" method="post" action="#">
             <div class="fields">
-                <div class="fields half">
-                    <input type="radio" name="chequeaqui" checked value="PARTICULARES">
-                    <label for="chequeaqui">EMPRESAS</label>
-                    <input type="radio" name="chequeaqui" value="EMPRESAS">
-                    <label for="chequeaqui">PARTICULARES</label>
+                <div class="form__radio">
+                    <input class="btn__radio" type="radio" name="chequeaqui" checked value="PARTICULARES">
+                    <label class="label__radio" for="chequeaqui">EMPRESAS</label>
+                    <input class="btn__radio" type="radio" name="chequeaqui" value="EMPRESAS">
+                    <label class="label__radio" for="chequeaqui">PARTICULARES</label>
                 </div>
                 <div class="field half">
                     <label for="name">Nombre</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" placeholder="Nombre" />
                 </div>
                 <div class="field half">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
+                    <input type="text" name="email" id="email" placeholder="Correo" />
                 </div>
                 <div class="field half">
                     <label for="message">Mensaje</label>
                     <textarea name="message" id="message" rows="5"></textarea>
                 </div>
-            </div>
-            <div class="actions__form">
-                <a href="mailto:unodago@gmail.com" class="container__button container__button--form">Enviar Mensaje</a>  
-            </div>
+                <div class="actions__form">
+                    <a href="mailto:cruzcorralesramos@gmail.com" class="container__button">Enviar Mensaje</a>  
+                </div>
+            </div>  
         </form>
     </div>
     <footer class="footer">
