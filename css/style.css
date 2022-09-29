@@ -1,0 +1,56 @@
+.header{
+    background-image: url('../img/cabecerainstalaciones.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__lista{
+    display: flex;
+}
+.header__li{
+    list-style: none;
+}
+.header__a{
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 25px 25px;
+    width: 120px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: rgb(247, 241, 241);
+}
+.header__h1{
+    color: rgb(247, 241, 241);
+}
+.header__h2{
+    color: rgb(247, 241, 241);
+}
+
+.main{
+    background-color: aqua;
+    height: auto;
+}
+.main__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+.main__article{
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.main__paneles{
+    background-image: url('../img/paneles2.jpg'); 
+}
+.main__baterias{
+    background-image: url('../img/baterias2.jpg');
+}
+.main__transformadores{
+    background-image: url('../img/transformadores2.jpg');
+}
