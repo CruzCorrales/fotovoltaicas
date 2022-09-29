@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Contacto</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a184aa559c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,28 +19,32 @@
             <h2 class="header__h2">EL TXISPAZO BARATO</h2>
         </div>
     </header>
-    <div class="div__particulares">
-        <h2>DATOS PARA PROYECTO PERSONALIZADO</h2>
-        <form class="form_pariculares">
-            <fieldset class="fieldset">
-            <input type="radio" name="chequeaqui" checked value="PARTICULARES">
-            <label for="chequeaqui">PARTICULARES</label>
-            <input type="radio" name="chequeaqui" value="EMPRESAS">
-            <label for="chequeaqui">EMPRESAS</label>
-            </fieldset>
-            <fieldset class="fieldset">
-                <label for="nombre">Nombre: </label>
-                <input type="text" name="Nombre" id="" placeholder="Nombre">
-                <label for="mail">Email: </label>
-                <input type="email" name="mail" id="" placeholder="Email">
-                <label for="tipo">Tipo de instalación: </label>
-                <input type="text" name="asunto" id="" placeholder="Asunto">
-            </fieldset>
-            <fieldset class="fieldset">
-                <label for="mensaje">Mensaje: </label>
-                <textarea name="mensaje" id="" cols="80" rows="5"></textarea>
-                <input type="submit" value="Enviar">
-            </fieldset>
+    <div class="form__contacto">
+        <p class="form__p">Para cualquier consulta puedes hacerlo atravez del siguiente formulario. Estaremos encantados de poder resolver tus consultas.</p>
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="fields half">
+                    <input type="radio" name="chequeaqui" checked value="PARTICULARES">
+                    <label for="chequeaqui">EMPRESAS</label>
+                    <input type="radio" name="chequeaqui" value="EMPRESAS">
+                    <label for="chequeaqui">PARTICULARES</label>
+                </div>
+                <div class="field half">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field half">
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="actions__form">
+                <a href="mailto:unodago@gmail.com" class="container__button container__button--form">Enviar Mensaje</a>  
+            </div>
         </form>
     </div>
     <footer class="footer">
